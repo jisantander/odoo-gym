@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
+  <data>
        <record model="ir.ui.view" id="workout_wizard">
           <field name="name">rate change</field>
           <field name="model">wizard.weight</field>
@@ -36,4 +37,5 @@
 
 
      
+  </data>
 </odoo>
