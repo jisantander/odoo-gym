@@ -43,10 +43,7 @@
                 <tree string="workout list">
                     <!--field name="no"/-->
                     <field name="customer_id"/>
-                    <field name="nutrition_ids">
-                    <field name="product_id"/>
-                    <field name="energy"/>
-                    </field>
+                    <field name="nutrition_ids"/>
                     <field name="date"/>
                 </tree>
             </field>

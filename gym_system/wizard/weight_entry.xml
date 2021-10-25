@@ -28,11 +28,15 @@
           <field name="target">new</field>
       </record>
      
-      <act_window id="new_workout_id"
-          multi="True"
-          key2="client_action_multi" name="new excercise"
-          res_model="wizard.weight" src_model="weight.entry"
-          view_mode="form" target="new"  />
+		<act_window
+			id="new_workout_id"
+			name="new excercise"
+			res_model="wizard.weight"
+			view_mode="form"
+			target="new"/>
+		<!--	multi="True"
+			key2="client_action_multi"
+			src_model="weight.entry"-->
 
 
 

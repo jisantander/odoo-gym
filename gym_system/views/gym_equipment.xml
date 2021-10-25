@@ -49,9 +49,9 @@
                 <field name="lst_price" position="replace">
                     <field name="lst_price" invisible="1"/>
                 </field>
-                <field name="attribute_value_ids" position="attributes">
+                <!--<field name="attribute_value_ids" position="attributes">
                     <attribute name="invisible">True</attribute>
-                </field>
+                </field>-->
             </field>
         </record>
         <record model="ir.actions.act_window" id="equipment_action">
